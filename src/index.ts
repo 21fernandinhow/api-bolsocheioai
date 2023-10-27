@@ -24,8 +24,22 @@ function basicAuth(req: Request, res: Response, next: NextFunction){
     }
 }
 
+//CORS Config
+function corsConfig(req: Request, res: Response, next: NextFunction) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.header('Access-Control-Allow-Credentials', 'true');
+  
+    if (req.method === 'OPTIONS') {
+      res.status(204).send();
+    } else {
+      next(); 
+    }
+}
+
 //Middleares
 app.use(express.json());
+app.use(corsConfig);
 app.use(basicAuth)
 app.use('/posts', postsRouter)
 app.use('/leads', leadsRouter)
