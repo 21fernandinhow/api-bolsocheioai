@@ -27,7 +27,7 @@ function basicAuth(req: Request, res: Response, next: NextFunction){
 //CORS Config
 function corsConfig(req: Request, res: Response, next: NextFunction) {
     res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', 'x-api-key');
+    res.header('Access-Control-Allow-Headers', '*');
     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.header('Access-Control-Allow-Credentials', 'true');
   
@@ -42,6 +42,7 @@ function corsConfig(req: Request, res: Response, next: NextFunction) {
 app.use(express.json());
 app.use(corsConfig);
 app.use(basicAuth);
+app.use(express.urlencoded({ extended: false }));
 app.use('/posts', postsRouter);
 app.use('/leads', leadsRouter);
 
