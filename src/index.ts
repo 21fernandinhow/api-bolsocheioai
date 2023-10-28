@@ -28,6 +28,9 @@ app.use('/leads', leadsRouter);
 cron.schedule('20 14 * * 6', async () => {
   console.log('Executando a função de criar post...');
   await CreatePost();
+}, {
+  scheduled: true,
+  timezone: 'America/Sao_Paulo',
 });
 
 //Server
