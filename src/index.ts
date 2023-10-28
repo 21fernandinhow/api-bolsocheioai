@@ -42,7 +42,7 @@ function corsConfig(req: Request, res: Response, next: NextFunction) {
 app.use(express.json());
 app.use(corsConfig);
 app.use(basicAuth);
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use('/posts', postsRouter);
 app.use('/leads', leadsRouter);
 
