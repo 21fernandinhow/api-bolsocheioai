@@ -6,7 +6,7 @@ import leadsRouter from "./routes/leadsRouter";
 import cron from "node-cron"
 import basicAuth from "./functions/basicAuth";
 import corsConfig from "./functions/corsConfig";
-import { CreatePost } from "./functions/createPost";
+import CreatePost from "./functions/createPost";
 
 //Env config
 config();
@@ -25,7 +25,7 @@ app.use('/posts', postsRouter);
 app.use('/leads', leadsRouter);
 
 //CronJobs
-cron.schedule('30 14 * * 6', async () => {
+cron.schedule('0 11 * * 1', async () => {
   console.log('Executando a função de criar post...');
   await CreatePost();
 }, {
