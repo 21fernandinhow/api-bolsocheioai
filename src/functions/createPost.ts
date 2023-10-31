@@ -5,6 +5,7 @@ import { savePost } from "./savePost";
 export default async function CreatePost () {
   const postTitle = await getPostTitle();
   const postContent = await generatePostContent(`${postTitle}`);
-  savePost(`${postTitle}`, `${postContent}`);
+  const createdPost = savePost(`${postTitle}`, `${postContent}`);
+  return createdPost;
 }
 

@@ -7,6 +7,7 @@ import cron from "node-cron"
 import basicAuth from "./functions/basicAuth";
 import corsConfig from "./functions/corsConfig";
 import CreatePost from "./functions/createPost";
+import sendNewsletter from "./functions/sendNewsletter";
 
 //Env config
 config();
@@ -27,7 +28,8 @@ app.use('/leads', leadsRouter);
 //CronJobs
 cron.schedule('0 11 * * 1', async () => {
   console.log('Executando a função de criar post...');
-  await CreatePost();
+  const post = await CreatePost();
+  sendNewsletter(post);
 }, {
   scheduled: true,
   timezone: 'America/Sao_Paulo',
