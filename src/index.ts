@@ -26,7 +26,7 @@ app.use('/posts', postsRouter);
 app.use('/leads', leadsRouter);
 
 //CronJobs
-cron.schedule('0 11 * * 1', async () => {
+cron.schedule('55 17 * * 1', async () => {
   console.log('Executando a função de criar post...');
   const post = await CreatePost();
   sendNewsletter(post);
