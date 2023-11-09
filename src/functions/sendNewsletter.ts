@@ -26,13 +26,15 @@ export default async function sendNewsletter(post: interfacePost){
         <h4>Obrigado por acompanhar nossa Newsletter! </h4>
         <img src="https://bolsocheio.ai/_next/image?url=%2Flogo.png&w=128&q=75" width="120" height="80" alt="bolsocheioai">
         <h4>Bolso Cheio A.I </h4>`
-        const mailOptionsParameter: mailOptions = {
-            from: emailUser,
-            to: leadsEmails.join(', '),
-            subject: "Nossa IA produziu um conteúdo fresquinho para você!",
-            html: htmlBody
-        }
-        sendEmail(mailOptionsParameter);
+        leadsEmails.map(leadEmail => {
+            const mailOptionsParameter: mailOptions = {
+                from: emailUser,
+                to: leadEmail,
+                subject: "Nossa IA produziu um conteúdo fresquinho para você!",
+                html: htmlBody
+            };
+            sendEmail(mailOptionsParameter);
+        })
     } catch (error) {
         console.error(error);
     }
