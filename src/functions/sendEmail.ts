@@ -12,8 +12,8 @@ export interface mailOptions {
 
 export default function sendEmail(mailOptions: mailOptions){
 
-    const emailUser = `${process.env.EMAIL_USER}`
-    const emailPassword = `${process.env.EMAIL_PASSWORD}`
+    const emailUser = process.env.EMAIL_USER
+    const emailPassword = process.env.EMAIL_PASSWORD
 
     const transport = nodemailer.createTransport({
         host: 'smtppro.zoho.com',
