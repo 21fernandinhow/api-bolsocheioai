@@ -18,7 +18,7 @@ export default function sendEmail(mailOptions: mailOptions){
     const transport = nodemailer.createTransport({
         host: 'smtppro.zoho.com',
         port: 465, 
-        secure: true, 
+        secure: false, 
         auth: {
             user: emailUser,
             pass: emailPassword
