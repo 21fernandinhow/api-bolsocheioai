@@ -1,13 +1,8 @@
 import sendEmail, {mailOptions} from "./sendEmail";
 import { interfacePost } from "../models/post";
 import { LeadModel, interfaceLead } from "../models/lead";
-import { config } from "dotenv";
-
-config();
 
 export default async function sendNewsletter(post: interfacePost){
-
-    const emailUser = `${process.env.EMAIL_USER}`;
 
     try {
         const leads: interfaceLead[] = await LeadModel.find();
@@ -28,7 +23,7 @@ export default async function sendNewsletter(post: interfacePost){
         <h4>Bolso Cheio A.I </h4>`
         leadsEmails.map(leadEmail => {
             const mailOptionsParameter: mailOptions = {
-                from: emailUser,
+                from: "newsletter@bolsocheio.ai",
                 to: leadEmail,
                 subject: "Nossa IA produziu um conteúdo fresquinho para você!",
                 html: htmlBody
