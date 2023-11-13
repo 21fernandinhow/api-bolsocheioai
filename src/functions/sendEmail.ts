@@ -12,12 +12,12 @@ export interface mailOptions {
 
 export default function sendEmail(mailOptions: mailOptions){
 
-    const emailUser = process.env.EMAIL_USER
+    const emailUser = "newsletter@bolsocheio.ai"
     const emailPassword = process.env.EMAIL_PASSWORD
 
     const transport = nodemailer.createTransport({
         host: 'smtp.zoho.com',
-        port: 587, 
+        port: 465, 
         secure: true, 
         auth: {
             user: emailUser,
