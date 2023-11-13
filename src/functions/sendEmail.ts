@@ -20,9 +20,9 @@ export default function sendEmail(mailOptions: mailOptions){
         port: 465, 
         secure: true, 
         auth: {
-            method: 'LOGIN',
-            user: emailUser,
-            pass: emailPassword
+            method: 'PLAIN',
+            user: Buffer.from(emailUser).toString('base64'),
+            pass: Buffer.from(emailPassword).toString('base64')
         }
     });
 
