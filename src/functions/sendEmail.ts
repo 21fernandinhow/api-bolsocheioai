@@ -20,7 +20,7 @@ export default function sendEmail(mailOptions: mailOptions){
         port: 465, 
         secure: true, 
         auth: {
-            method: 'AUTH',
+            method: 'PLAIN',
             user: emailUser,
             pass: emailPassword
         }
