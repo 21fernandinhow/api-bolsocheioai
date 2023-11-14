@@ -22,9 +22,7 @@ export default function sendEmail(mailOptions: mailOptions){
         auth: {
             user: emailUser,
             pass: emailPassword
-        },
-        logger: true,
-        debug: true,
+        }
     });
 
     transport.sendMail(mailOptions, function(error, info){
