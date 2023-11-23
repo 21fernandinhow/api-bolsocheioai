@@ -46,6 +46,24 @@ postsRouter.post('/', async (req: Request, res: Response) => {
     }
 });
 
+postsRouter.put('/:id', async (req: Request, res: Response) => {
+    try {
+        const {title, content} = req.body;
+        const post = await PostModel.findById(req.params.id);
+
+        if(post){
+            await post.updateOne({title});
+            await post.updateOne({content});
+            res.status(200).json("Post atualizado com sucesso! \n\n"+post)
+        } else {
+            res.status(500).json({ error: 'Erro ao atualizar post' });
+        }
+        
+    } catch (error) {
+        res.status(500).json({ error: 'Erro ao atualizar post' });
+    }
+});
+
 postsRouter.delete('/:id', async (req: Request, res: Response) => {
     try {
         await PostModel.findByIdAndRemove(req.params.id);
