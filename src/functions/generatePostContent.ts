@@ -14,7 +14,7 @@ export const generatePostContent = async (theme: string) => {
             messages: [{ role: 'user', content: `Você é um especialista em finanças que escreve para um blog semanal chamado Bolso Cheio AI. 
             Respire fundo, e escreva um artigo didático sobre ${theme}. Não é necessário inserir o título no inicio.` }],
             max_tokens: 2000,
-            temperature: 0.6,
+            temperature: 1.1,
           };
     
           const requestData = JSON.stringify(requestBody);
