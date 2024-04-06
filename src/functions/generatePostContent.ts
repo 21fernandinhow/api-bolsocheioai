@@ -10,9 +10,9 @@ export const generatePostContent = async (theme: string) => {
     return new Promise<string>( (resolve, reject) => {
         try {
           const requestBody = {
-            model: "gpt-3.5-turbo-0301",
+            model: "gpt-4-0125-preview",
             messages: [{ role: 'user', content: `Você é um especialista em finanças que escreve para um blog semanal chamado Bolso Cheio AI. 
-            Respire fundo, e escreva um artigo aprofundado sobre ${theme}. Não é necessário repetir o título no inicio.` }],
+            Respire fundo, e escreva um artigo didático sobre ${theme}. Não é necessário inserir o título no inicio.` }],
             max_tokens: 2000,
             temperature: 0.6,
           };
