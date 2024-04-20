@@ -12,7 +12,7 @@ export const generatePostContent = async (theme: string) => {
           const requestBody = {
             model: "gpt-4-0125-preview",
             messages: [{ role: 'user', content: `Você é um especialista em finanças que escreve para um blog semanal chamado Bolso Cheio AI. 
-            Respire fundo, e escreva um artigo didático sobre ${theme}. Não é necessário inserir o título no inicio.` }],
+            Respire fundo, e escreva um artigo didático sobre ${theme}. Não é necessário inserir o título no inicio. Coloque negrito entre asteriscos e não use ###` }],
             max_tokens: 2000,
             temperature: 0.9,
           };
