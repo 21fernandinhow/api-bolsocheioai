@@ -7,7 +7,7 @@ export default async function CreatePost () {
 
   if(postInfo){
     const postContent = await generatePostContent(postInfo);
-    const createdPost = savePost(`${postInfo.title}`, `${postContent}`);
+    const createdPost = savePost(postInfo.title, postContent);
     return createdPost;
   }
 
