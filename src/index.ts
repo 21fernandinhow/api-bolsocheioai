@@ -27,9 +27,16 @@ app.use('/leads', leadsRouter);
 
 //CronJobs
 cron.schedule('30 10 * * 2', async () => {
+
   console.log('Executando a função de criar post...');
   const post = await CreatePost();
-  sendNewsletter(post);
+
+  if(post){
+    sendNewsletter(post);
+  } else {
+    console.log("Erro ao criar post")
+  }
+
 }, {
   scheduled: true,
   timezone: 'America/Sao_Paulo',

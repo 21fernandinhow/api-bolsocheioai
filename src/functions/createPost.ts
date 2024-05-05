@@ -1,11 +1,16 @@
-import { getPostTitle } from "./getPostsTitles";
-import { generatePostContent } from "./generatePostContent";
+import { getPostInfo, postInfo } from "./getPostInfo";
+import { generatePostContent} from "./generatePostContent";
 import { savePost } from "./savePost";
 
 export default async function CreatePost () {
-  const postTitle = await getPostTitle();
-  const postContent = await generatePostContent(`${postTitle}`);
-  const createdPost = savePost(`${postTitle}`, `${postContent}`);
-  return createdPost;
+  const postInfo: postInfo | undefined = await getPostInfo();
+
+  if(postInfo){
+    const postContent = await generatePostContent(postInfo);
+    const createdPost = savePost(`${postInfo}`, `${postContent}`);
+    return createdPost;
+  }
+
+  return false
 }
 
