@@ -11,7 +11,7 @@ export const generatePostContent = async (postInfo: postInfo) => {
     return new Promise<string>( (resolve, reject) => {
         try {
           const requestBody = {
-            model: "gpt-4-0125-preview",
+            model: "gpt-4o-2024-05-13",
             messages: [
               { 
                 role: 'user', 
