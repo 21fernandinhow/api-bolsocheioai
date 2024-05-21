@@ -46,7 +46,7 @@ usersRouter.post('/login', async ( req: Request, res: Response) => {
         if (user) {
             const isMatch = await bcrypt.compare(password, user.password);
             if (isMatch) {
-              res.status(200).json({ message: 'Login bem-sucedido' });
+              res.status(200).json({ message: 'Login bem-sucedido', user: user });
             } else {
               res.status(401).json({ message: 'Senha incorreta' });
             }
