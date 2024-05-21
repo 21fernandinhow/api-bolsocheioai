@@ -3,6 +3,7 @@ import { config } from "dotenv";
 import mongoConnect from "./config/database";
 import postsRouter from "./routes/postsRouter";
 import leadsRouter from "./routes/leadsRouter";
+import usersRouter from "./routes/usersRouter";
 import cron from "node-cron"
 import basicAuth from "./functions/basicAuth";
 import corsConfig from "./functions/corsConfig";
@@ -24,6 +25,7 @@ app.use(basicAuth);
 app.use(express.urlencoded({ extended: true }));
 app.use('/posts', postsRouter);
 app.use('/leads', leadsRouter);
+app.use('/users', usersRouter);
 
 //CronJobs
 cron.schedule('30 10 * * 2', async () => {
