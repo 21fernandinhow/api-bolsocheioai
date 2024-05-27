@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import {PostModel, interfacePost} from "../models/post";
 import { savePost } from "../functions/savePost";
+import { getPostInfo } from "../functions/getPostInfo";
 //import { CreatePost } from "../functions/createPost";
 
 const postsRouter = express.Router();
@@ -13,6 +14,19 @@ postsRouter.get('/', async (req: Request, res: Response)=>{
         res.status(500).json({ error: 'Erro ao buscar posts' });
     }
 });
+
+postsRouter.get('/next', async (req: Request, res: Response) => {
+    try {
+        const nextPosts = []
+        for(let i = 0; i < 5; i++){
+            const newPost = await getPostInfo(i);
+            nextPosts.push(newPost)
+        }
+        res.status(200).json(nextPosts);
+    } catch (error) {
+        res.status(500).json({ error: 'Erro ao buscar posts' });
+    }
+})
 
 //To test createPost
 /*

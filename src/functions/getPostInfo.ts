@@ -5,11 +5,11 @@ export interface postInfo {
   keywords: string[]
 }
 
-export const getPostInfo = async () => {
+export const getPostInfo = async (append: number = 0) => {
 
   try {
     const posts: interfacePost[] = await PostModel.find();
-    const todayPostInfo = postsInfos[posts.length];
+    const todayPostInfo = postsInfos[posts.length + append];
     return todayPostInfo
   } catch (error) {
     console.log(`Erro ao gerar título de Post: ${error}`)
