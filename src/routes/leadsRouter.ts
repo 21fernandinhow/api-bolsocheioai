@@ -12,9 +12,9 @@ leadsRouter.get('/', async (req: Request, res: Response)=>{
     }
 });
 
-leadsRouter.get('/:id', async (req: Request, res: Response)=>{
+leadsRouter.get('/:email', async (req: Request, res: Response)=>{
     try {
-        const lead = await LeadModel.findById(req.params.id);
+        const lead = await LeadModel.findOne({email: req.params.email}); 
         res.status(200).json(lead);
     } catch (error) {
         res.status(404).json({ error: 'Inscrito não encontrado' });
@@ -23,9 +23,8 @@ leadsRouter.get('/:id', async (req: Request, res: Response)=>{
 
 leadsRouter.post('/', async (req: Request, res: Response) => {
     try {
-        const { name, email } = req.body;
+        const { email } = req.body;
         const newLead = new LeadModel({
-            name,
             email
         });
         const subscribedLead = await newLead.save();
@@ -36,9 +35,9 @@ leadsRouter.post('/', async (req: Request, res: Response) => {
     }
 });
 
-leadsRouter.delete('/:id', async (req: Request, res: Response) => {
+leadsRouter.delete('/:email', async (req: Request, res: Response) => {
     try {
-        await LeadModel.findByIdAndRemove(req.params.id);
+        await LeadModel.findOne({email: req.params.email});  
         res.status(200).json({content: "Inscrito removido com sucesso!"})
     } catch (error) {
         res.status(500).json({ error: 'Erro remover inscrito' });
