@@ -37,8 +37,8 @@ leadsRouter.post('/', async (req: Request, res: Response) => {
 
 leadsRouter.delete('/:email', async (req: Request, res: Response) => {
     try {
-        await LeadModel.findOne({email: req.params.email});  
-        res.status(200).json({content: "Inscrito removido com sucesso!"})
+        await LeadModel.findOneAndDelete({email: req.params.email});
+        res.status(200).json("Inscrito removido com sucesso!")
     } catch (error) {
         res.status(500).json({ error: 'Erro remover inscrito' });
     }
