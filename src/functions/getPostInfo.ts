@@ -151,24 +151,20 @@ const postsInfos = [
     keywords: ["planejamento sucessório", "herança", "proteção de patrimônio", "proteger patrimônio"] 
   },
   {
-    title: "Investindo em Educação Financeira: Recursos e Cursos Recomendados", 
-    keywords: ["educação financeira", "cursos de finanças", "recursos educacionais"] 
-  },
-  {
     title: "A Psicologia dos Gastos: Como Evitar Compras Impulsivas", 
-    keywords: ["compras impulsivas", "comportamento de compra", "psicologia do consumo"] 
+    keywords: ["compras impulsivas", "psicologia do dinheiro", "como economizar", "como parar de gastar", "consumismo", "comportamento de compra", "psicologia do consumo"] 
   },
   {
     title: "Investindo no Exterior: O Que Você Precisa Saber", 
-    keywords: ["investimento internacional", "mercado global", "diversificação internacional"] 
+    keywords: ["investimento internacional", "mercado global", "investir no exterior", "S&P500", "diversificação internacional"] 
   },
   {
     title: "Como Superar uma Crise Financeira: Passos Práticos para a Recuperação", 
-    keywords: ["crise financeira", "recuperação financeira", "planejamento de crise"] 
+    keywords: ["crise financeira", "recuperação financeira", "inflaçao", "aperto financeiro", "como economizar", "planejamento de crise"] 
   },
   {
     title: "O Mundo dos Empréstimos Pessoais: Quando é uma Boa Opção?", 
-    keywords: ["empréstimos pessoais", "crédito pessoal", "opções de financiamento"] 
+    keywords: ["empréstimos pessoais", "cálculo de juros", "juros abusivos", "financiamento", "fazer empréstimo", "como fazer empréstimo"] 
   },
   {
     title: "A Arte de Negociar um Aumento Salarial: Dicas para Ter Sucesso", 
