@@ -9,6 +9,7 @@ import basicAuth from "./functions/basicAuth";
 import corsConfig from "./functions/corsConfig";
 import CreatePost from "./functions/createPost";
 import sendNewsletter from "./functions/sendNewsletter";
+import sendNPS from "./functions/sendNPS";
 
 //Env config
 config();
@@ -44,8 +45,15 @@ cron.schedule('30 10 * * 2', async () => {
   timezone: 'America/Sao_Paulo',
 });
 
+cron.schedule('30 10 17 * *', async () => {
+  console.log('Executando a função de pesquisar feedbacks...');
+  sendNPS()
+}, {
+  scheduled: true,
+  timezone: 'America/Sao_Paulo',
+});
+
 //Server
 app.listen(port, () => {
   console.log("Servidor em funcionamento...");
 });
-
