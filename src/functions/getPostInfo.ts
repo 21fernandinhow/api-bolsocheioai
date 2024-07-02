@@ -168,7 +168,7 @@ const postsInfos = [
   },
   {
     title: "A Arte de Negociar um Aumento Salarial: Dicas para Ter Sucesso", 
-    keywords: ["aumento salarial", "negociação salarial", "valorização profissional"] 
+    keywords: ["aumento salarial", "negociação salarial", "valorização profissional", "como ganhar mais"] 
   },
   {
     title: "Construindo um Portfólio de Aposentadoria Robusto", 
