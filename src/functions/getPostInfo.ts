@@ -172,23 +172,23 @@ const postsInfos = [
   },
   {
     title: "Construindo um Portfólio de Aposentadoria Robusto", 
-    keywords: ["portfólio de aposentadoria", "investimentos para aposentadoria", "planejamento de aposentadoria"] 
+    keywords: ["diversificação de investimentos", "alocação de ativos", "planejamento fiscal para aposentadoria", "aposentadoria antecipada", "como investir para aposentadoria", "dicas para aposentadoria"] 
   },
   {
     title: "A Importância do Planejamento Tributário Pessoal", 
-    keywords: ["planejamento tributário pessoal", "otimização fiscal pessoal", "impostos pessoais"] 
+    keywords: ["deduções fiscais", "isenções fiscais", "planejamento fiscal estratégico", "impostos sobre heranças", "impostos sobre investimentos", "impostos sobre sucessões"] 
   },
   {
     title: "Como Escolher um Consultor Financeiro: Dicas para Tomar a Melhor Decisão", 
-    keywords: ["consultor financeiro", "planejador financeiro", "assessoria financeira"] 
+    keywords: ["escolher consultor financeiro", "qualidades consultor financeiro", "serviços consultoria financeira", "taxas consultoria financeira", "perguntas para consultor financeiro"]
   },
   {
     title: "Como Manter um Estilo de Vida Equilibrado Financeiramente", 
-    keywords: ["equilíbrio financeiro", "bem-estar financeiro", "saúde financeira"] 
+    keywords: [ "como fazer um orçamento", "habitos financeiros saudáveis", "equilibrio financeiro", "como não gastar demais"] 
   },
   {
     title: "Investindo em Startups: Riscos e Recompensas", 
-    keywords: ["investimento em startups", "empreendedorismo", "capital de risco"] 
+    keywords: ["como investir em startups", "porque investir em startups", "crowdfunding", "investimento anjo", "venture capital", "avaliação de startups", "dicas para investir em startups"] 
   },
   {
     title: "Como Escolher o Melhor Cartão de Crédito para Você", 
