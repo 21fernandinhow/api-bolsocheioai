@@ -192,19 +192,20 @@ const postsInfos = [
   },
   {
     title: "Como Escolher o Melhor Cartão de Crédito para Você", 
-    keywords: ["cartão de crédito", "escolha de cartão", "cartões de crédito"] 
+    keywords: ["escolher cartão de crédito", "melhores cartões de crédito", "cartão de crédito ideal", "comparação de cartões de crédito"]
   },
   {
     title: "A Influência da Inflação nos Investimentos: Estratégias para se Proteger", 
-    keywords: ["inflação", "proteção contra inflação", "impacto da inflação"] 
+    keywords: ["inflação e investimentos", "proteção contra inflação", "estratégias de investimento", "como se proteger da inflação"]
   },
   {
     title: "Estratégias de Investimento para o Curto Prazo", 
-    keywords: ["investimento de curto prazo", "estratégias de curto prazo", "investimento de curto prazo"] 
+    keywords: ["investimento de curto prazo", "estratégias de investimento", "ganhos rápidos", "investimento temporário"]
   },
   {
     title: "A Importância da Reserva de Liquidez: Dinheiro Disponível em Caso de Necessidade", 
-    keywords: ["reserva de liquidez", "dinheiro disponível", "emergência financeira"] 
+    keywords: ["reserva de liquidez", "dinheiro disponível", "emergência financeira", "fundo de emergência", "planejamento financeiro"]
+
   },
   {
     title: "Finanças no Casamento: Como Gerenciar o Dinheiro em Conjunto", 
