@@ -205,22 +205,21 @@ const postsInfos = [
   {
     title: "A Importância da Reserva de Liquidez: Dinheiro Disponível em Caso de Necessidade", 
     keywords: ["reserva de liquidez", "dinheiro disponível", "emergência financeira", "fundo de emergência", "planejamento financeiro"]
-
   },
   {
     title: "Finanças no Casamento: Como Gerenciar o Dinheiro em Conjunto", 
-    keywords: ["finanças no casamento", "gestão financeira conjugal", "planejamento financeiro familiar"] 
+    keywords: ["Finanças no casamento", "Gerenciar dinheiro em conjunto", "Orçamento familiar", "Planejamento financeiro a dois", "finanças para casais"]
   },
   {
     title: "A Revolução das Finanças Digitais: Como Aproveitar ao Máximo", 
-    keywords: ["finanças digitais", "inovação financeira", "tecnologia financeira"] 
+    keywords: ["Finanças digitais", "Bancos Digitais", "Revolução financeira digital", "Tecnologia financeira", "Serviços financeiros online", "IA nas finanças", "Bancos digitais", "Carteira digital"]
   },
   {
     title: "O Papel da Tecnologia na Transformação das Finanças Pessoais", 
-    keywords: ["tecnologia financeira", "fintechs", "inovação tecnológica"] 
+    keywords: ["Tecnologia e finanças pessoais", "Transformação financeira", "Apps de finanças pessoais", "Inovações financeiras", "fintechs", "Ia nas finanças", "Bancos digitais"]
   },
   {
     title: "Como se Preparar Financeiramente para a Aposentadoria: Passos Essenciais", 
-    keywords: ["planejamento de aposentadoria", "preparação para aposentadoria", "estratégias de aposentadoria"] 
+    keywords: ["Preparação para aposentadoria", "Planejamento financeiro para aposentadoria", "Passos para aposentadoria", "Investimentos para aposentadoria", "Renda passiva"]
   }
 ];
