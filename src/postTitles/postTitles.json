@@ -1,0 +1,771 @@
+[
+  {
+    "title": "Como Economizar Dinheiro: Dicas Práticas para Iniciantes",
+    "keywords": ["economia", "poupança", "gastos", "finanças pessoais"]
+  },
+  {
+    "title": "Investindo para o Futuro: Estratégias Inteligentes de Investimento",
+    "keywords": [
+      "investimento",
+      "planejamento financeiro",
+      "gestão de patrimônio"
+    ]
+  },
+  {
+    "title": "Orçamento Doméstico: Como Criar e Manter um Orçamento Eficiente",
+    "keywords": ["orçamento", "controle financeiro", "despesas familiares"]
+  },
+  {
+    "title": "O Que Fazer com seu Dinheiro Antes dos 30 Anos",
+    "keywords": [
+      "finanças pessoais",
+      "jovens adultos",
+      "independência financeira"
+    ]
+  },
+  {
+    "title": "Entendendo os Juros: Como Funcionam e Como Evitá-los",
+    "keywords": ["juros", "empréstimos", "financiamento", "taxas de juros"]
+  },
+  {
+    "title": "A Importância de um Fundo de Emergência: Como Criar e Manter o Seu",
+    "keywords": ["reserva financeira", "segurança financeira", "contingência"]
+  },
+  {
+    "title": "O Poder dos Pequenos Investimentos: Comece a Investir com Pouco Dinheiro",
+    "keywords": ["investimento inicial", "microinvestimentos", "renda passiva"]
+  },
+  {
+    "title": "Desmistificando o Mercado de Ações: Um Guia para Iniciantes",
+    "keywords": ["bolsa de valores", "ações", "investimentos em ações"]
+  },
+  {
+    "title": "Planejamento Financeiro: Por Que é Importante e Como Começar",
+    "keywords": [
+      "gestão financeira",
+      "estratégias financeiras",
+      "orçamento pessoal"
+    ]
+  },
+  {
+    "title": "Como Sair das Dívidas: Estratégias Eficazes para Eliminar Débitos",
+    "keywords": ["quitação de dívidas"]
+  },
+  {
+    "title": "Investindo no Longo Prazo: Construindo Riqueza ao Longo do Tempo",
+    "keywords": ["investimento a longo prazo", "acumulação de riqueza"]
+  },
+  {
+    "title": "O Mundo das Criptomoedas: O Que Você Precisa Saber",
+    "keywords": ["criptomoedas", "blockchain", "investimentos digitais"]
+  },
+  {
+    "title": "Os Melhores Aplicativos para Controlar suas Finanças Pessoais",
+    "keywords": [
+      "aplicativos financeiros",
+      "gestão de dinheiro",
+      "tecnologia financeira"
+    ]
+  },
+  {
+    "title": "Estratégias para Economizar Dinheiro no Dia a Dia",
+    "keywords": ["economia diária", "dicas de economia", "gestão de despesas"]
+  },
+  {
+    "title": "A Psicologia do Dinheiro: Como Nossas Emoções Afetam as Finanças",
+    "keywords": [
+      "psicologia financeira",
+      "comportamento financeiro",
+      "emoções e dinheiro"
+    ]
+  },
+  {
+    "title": "O Papel do Seguro na Segurança Financeira: O Que Você Precisa Entender",
+    "keywords": ["seguro", "proteção financeira", "planejamento de risco"]
+  },
+  {
+    "title": "Como Aumentar sua Pontuação de Crédito: Dicas Práticas",
+    "keywords": [
+      "pontuação de crédito",
+      "histórico de crédito",
+      "score de crédito"
+    ]
+  },
+  {
+    "title": "Investir em Imóveis: Uma Opção Inteligente para Diversificar",
+    "keywords": [
+      "investimento imobiliário",
+      "propriedade real",
+      "mercado imobiliário"
+    ]
+  },
+  {
+    "title": "A Arte da Negociação: Como Conseguir Descontos e Ofertas",
+    "keywords": [
+      "negociação",
+      "habilidades de negociação",
+      "estratégias de barganha"
+    ]
+  },
+  {
+    "title": "Finanças para Empreendedores: Como Gerenciar as Finanças do seu Negócio",
+    "keywords": [
+      "finanças empresariais",
+      "empreendedorismo",
+      "gestão financeira de negócios"
+    ]
+  },
+  {
+    "title": "Entendendo os Impostos: Dicas para Maximizar sua Restituição",
+    "keywords": [
+      "impostos",
+      "planejamento tributário",
+      "declaração de imposto de renda"
+    ]
+  },
+  {
+    "title": "O Futuro das Finanças: Tendências a Observar nos Próximos Anos",
+    "keywords": [
+      "tendências financeiras",
+      "inovação financeira",
+      "tecnologia financeira"
+    ]
+  },
+  {
+    "title": "Diversificação de Investimentos: Por que é Importante e Como Fazer",
+    "keywords": [
+      "diversificação de portfólio",
+      "estratégias de investimento",
+      "gestão de risco"
+    ]
+  },
+  {
+    "title": "Educação Financeira para Crianças: Como Ensinar desde Cedo",
+    "keywords": [
+      "educação financeira infantil",
+      "ensino de finanças",
+      "educação financeira familiar"
+    ]
+  },
+  {
+    "title": "Economizando para a Aposentadoria: Estratégias para um Futuro Confortável",
+    "keywords": [
+      "previdência",
+      "aposentadoria",
+      "planejamento de aposentadoria"
+    ]
+  },
+  {
+    "title": "Como Investir em Ações com Sabedoria: Dicas para Iniciantes",
+    "keywords": [
+      "investimento em ações",
+      "estratégias de investimento",
+      "mercado de ações"
+    ]
+  },
+  {
+    "title": "Hábitos Financeiros de Pessoas Bem-Sucedidas: Lições a Serem Aprendidas",
+    "keywords": [
+      "hábitos financeiros",
+      "sucesso financeiro",
+      "mentalidade financeira"
+    ]
+  },
+  {
+    "title": "O Papel do Ouro no Portfólio de Investimentos",
+    "keywords": ["ouro", "investimento em ouro", "metal precioso"]
+  },
+  {
+    "title": "Finanças Sustentáveis: Investindo com Responsabilidade Social",
+    "keywords": [
+      "investimento sustentável",
+      "finanças éticas",
+      "responsabilidade social corporativa"
+    ]
+  },
+  {
+    "title": "Como Lidar com Despesas Inesperadas: Estratégias para se Preparar",
+    "keywords": [
+      "reserva de emergência",
+      "imprevistos financeiros",
+      "despesas inesperadas",
+      "como fazer reserva de emergência"
+    ]
+  },
+  {
+    "title": "O Que Fazer com seu Dinheiro Extra: Opções de Investimento Inteligentes",
+    "keywords": [
+      "renda extra",
+      "2024",
+      "melhores opções de investimento",
+      "o que fazer com dinheiro",
+      "onde investir"
+    ]
+  },
+  {
+    "title": "Estratégias para Pagar Menos Impostos Legalmente",
+    "keywords": [
+      "pagar menos impostos",
+      "declarar impostos",
+      "imposto de renda",
+      "restituição",
+      "restituição do imposto de renda"
+    ]
+  },
+  {
+    "title": "A Importância do Planejamento Sucessório: Protegendo seu Patrimônio",
+    "keywords": [
+      "planejamento sucessório",
+      "herança",
+      "proteção de patrimônio",
+      "proteger patrimônio"
+    ]
+  },
+  {
+    "title": "A Psicologia dos Gastos: Como Evitar Compras Impulsivas",
+    "keywords": [
+      "compras impulsivas",
+      "psicologia do dinheiro",
+      "como economizar",
+      "como parar de gastar",
+      "consumismo",
+      "comportamento de compra",
+      "psicologia do consumo"
+    ]
+  },
+  {
+    "title": "Investindo no Exterior: O Que Você Precisa Saber",
+    "keywords": [
+      "investimento internacional",
+      "mercado global",
+      "investir no exterior",
+      "S&P500",
+      "diversificação internacional"
+    ]
+  },
+  {
+    "title": "Como Superar uma Crise Financeira: Passos Práticos para a Recuperação",
+    "keywords": [
+      "crise financeira",
+      "recuperação financeira",
+      "inflaçao",
+      "aperto financeiro",
+      "como economizar",
+      "planejamento de crise"
+    ]
+  },
+  {
+    "title": "O Mundo dos Empréstimos Pessoais: Quando é uma Boa Opção?",
+    "keywords": [
+      "empréstimos pessoais",
+      "cálculo de juros",
+      "juros abusivos",
+      "financiamento",
+      "fazer empréstimo",
+      "como fazer empréstimo"
+    ]
+  },
+  {
+    "title": "A Arte de Negociar um Aumento Salarial: Dicas para Ter Sucesso",
+    "keywords": [
+      "aumento salarial",
+      "negociação salarial",
+      "valorização profissional",
+      "como ganhar mais"
+    ]
+  },
+  {
+    "title": "Construindo um Portfólio de Aposentadoria Robusto",
+    "keywords": [
+      "diversificação de investimentos",
+      "alocação de ativos",
+      "planejamento fiscal para aposentadoria",
+      "aposentadoria antecipada",
+      "como investir para aposentadoria",
+      "dicas para aposentadoria"
+    ]
+  },
+  {
+    "title": "A Importância do Planejamento Tributário Pessoal",
+    "keywords": [
+      "deduções fiscais",
+      "isenções fiscais",
+      "planejamento fiscal estratégico",
+      "impostos sobre heranças",
+      "impostos sobre investimentos",
+      "impostos sobre sucessões"
+    ]
+  },
+  {
+    "title": "Como Escolher um Consultor Financeiro: Dicas para Tomar a Melhor Decisão",
+    "keywords": [
+      "escolha de consultores financeiros",
+      "credenciamento de consultores",
+      "consultores fiduciários",
+      "como avaliar consultor financeiro",
+      "consultores e impostos",
+      "consultores e estratégias de aposentadoria"
+    ]
+  },
+
+  {
+    "title": "5 Dicas para Cortar Gastos Supérfluos e Poupar Mais",
+    "keywords": [
+      "corte de gastos",
+      "economia",
+      "poupança",
+      "despesas supérfluas"
+    ]
+  },
+  {
+    "title": "A Importância de Criar Metas Financeiras para o Ano Novo",
+    "keywords": [
+      "metas financeiras",
+      "planejamento anual",
+      "objetivos financeiros",
+      "orçamento"
+    ]
+  },
+  {
+    "title": "Como o Pix Está Transformando o Sistema de Pagamentos no Brasil",
+    "keywords": [
+      "Pix",
+      "pagamentos digitais",
+      "tecnologia financeira",
+      "inovação bancária"
+    ]
+  },
+  {
+    "title": "Dicas para Evitar Dívidas no Cartão de Crédito",
+    "keywords": [
+      "cartão de crédito",
+      "dívidas",
+      "controle financeiro",
+      "juros altos"
+    ]
+  },
+  {
+    "title": "Como Planejar suas Finanças para Grandes Compras",
+    "keywords": [
+      "planejamento financeiro",
+      "compras grandes",
+      "investimentos",
+      "gestão de dinheiro"
+    ]
+  },
+  {
+    "title": "A Importância do Planejamento de Despesas Mensais",
+    "keywords": [
+      "despesas mensais",
+      "controle de orçamento",
+      "gestão financeira"
+    ]
+  },
+  {
+    "title": "Como Economizar em Viagens: Dicas Práticas",
+    "keywords": [
+      "economia em viagens",
+      "planejamento de viagem",
+      "despesas de viagem",
+      "dicas de economia"
+    ]
+  },
+  {
+    "title": "Aposentadoria: Quando Começar a Contribuir para um Plano Privado",
+    "keywords": [
+      "aposentadoria privada",
+      "previdência",
+      "contribuição financeira",
+      "planejamento a longo prazo"
+    ]
+  },
+  {
+    "title": "Como Criar um Fundo para Emergências Médicas",
+    "keywords": [
+      "fundo de emergência",
+      "despesas médicas",
+      "segurança financeira",
+      "planejamento de saúde"
+    ]
+  },
+  {
+    "title": "Planejando as Finanças para Casamento: Quanto Custa Subir ao Altar",
+    "keywords": [
+      "planejamento financeiro de casamento",
+      "orçamento para casamento",
+      "gastos de casamento",
+      "gestão de eventos"
+    ]
+  },
+  {
+    "title": "Como Organizar suas Finanças com Contas Bancárias Separadas",
+    "keywords": [
+      "contas bancárias",
+      "organização financeira",
+      "gestão de finanças",
+      "estratégias financeiras"
+    ]
+  },
+  {
+    "title": "Educação Financeira no Brasil: Como Melhorar sua Relação com o Dinheiro",
+    "keywords": [
+      "educação financeira",
+      "finanças no Brasil",
+      "aprendizado financeiro",
+      "gestão de dinheiro"
+    ]
+  },
+  {
+    "title": "A Revolução das Fintechs: Como as Startups Estão Mudando o Mercado Financeiro",
+    "keywords": [
+      "fintechs",
+      "startups financeiras",
+      "inovação financeira",
+      "tecnologia em finanças"
+    ]
+  },
+  {
+    "title": "Como Proteger seu Dinheiro em Tempos de Crise Econômica",
+    "keywords": [
+      "proteção financeira",
+      "crise econômica",
+      "segurança financeira",
+      "gestão de riscos"
+    ]
+  },
+  {
+    "title": "Como Funciona o Consórcio: Alternativa ao Financiamento",
+    "keywords": [
+      "consórcio",
+      "financiamento",
+      "compras planejadas",
+      "alternativa de crédito"
+    ]
+  },
+  {
+    "title": "Vale a Pena Financiar um Carro? Prós e Contras",
+    "keywords": [
+      "financiamento de carro",
+      "prós e contras",
+      "decisões financeiras",
+      "compra de veículos"
+    ]
+  },
+  {
+    "title": "Renda Extra: Ideias de Como Ganhar Dinheiro sem Sair de Casa",
+    "keywords": [
+      "renda extra",
+      "trabalho remoto",
+      "ideias de negócios",
+      "freelancer"
+    ]
+  },
+  {
+    "title": "Como Utilizar um Planejador Financeiro Pessoal",
+    "keywords": [
+      "planejamento financeiro",
+      "ferramentas financeiras",
+      "controle de finanças pessoais"
+    ]
+  },
+  {
+    "title": "O Impacto da Inflação no seu Poder de Compra",
+    "keywords": [
+      "inflação",
+      "poder de compra",
+      "gestão financeira",
+      "mercado financeiro"
+    ]
+  },
+  {
+    "title": "Poupança ou Tesouro Direto: Onde Investir com Baixo Risco",
+    "keywords": [
+      "investimentos de baixo risco",
+      "poupança",
+      "tesouro direto",
+      "rentabilidade segura"
+    ]
+  },
+  {
+    "title": "Como Economizar para um Intercâmbio no Exterior",
+    "keywords": [
+      "economizar para intercâmbio",
+      "planejamento financeiro",
+      "estudo no exterior",
+      "dicas de economia"
+    ]
+  },
+  {
+    "title": "Vantagens e Desvantagens dos Cartões de Crédito Internacionais",
+    "keywords": [
+      "cartões internacionais",
+      "dívidas",
+      "juros",
+      "vantagens do crédito"
+    ]
+  },
+  {
+    "title": "Como Definir Metas Financeiras e Alcançá-las",
+    "keywords": [
+      "metas financeiras",
+      "planejamento financeiro",
+      "objetivos financeiros",
+      "gestão de dinheiro"
+    ]
+  },
+  {
+    "title": "Finanças Pessoais para Casais: Como Dividir as Contas",
+    "keywords": [
+      "finanças para casais",
+      "divisão de despesas",
+      "gestão de dinheiro em casal",
+      "orçamento familiar"
+    ]
+  },
+  {
+    "title": "Como Se Preparar Financeiramente para Ter Filhos",
+    "keywords": [
+      "planejamento financeiro familiar",
+      "custos de filhos",
+      "gestão de despesas familiares",
+      "economia para pais"
+    ]
+  },
+  {
+    "title": "Como Manter um Controle Financeiro Rigoroso em Época de Crise",
+    "keywords": [
+      "controle financeiro",
+      "planejamento em crise",
+      "despesas pessoais",
+      "gestão de crises"
+    ]
+  },
+  {
+    "title": "Como Escolher um Seguro de Vida Adequado às suas Necessidades",
+    "keywords": [
+      "seguro de vida",
+      "proteção financeira",
+      "planejamento de risco",
+      "segurança familiar"
+    ]
+  },
+  {
+    "title": "O Impacto da Taxa Selic nos Investimentos: O Que Você Precisa Saber",
+    "keywords": [
+      "taxa Selic",
+      "impacto nos investimentos",
+      "economia brasileira",
+      "juros e rentabilidade"
+    ]
+  },
+  {
+    "title": "Como Avaliar as Taxas de Juros em Empréstimos Pessoais",
+    "keywords": [
+      "taxas de juros",
+      "empréstimos pessoais",
+      "gestão de crédito",
+      "custo de empréstimos"
+    ]
+  },
+  {
+    "title": "Como Controlar Gastos com Lazer sem Prejudicar seu Orçamento",
+    "keywords": [
+      "gastos com lazer",
+      "controle de despesas",
+      "orçamento pessoal",
+      "equilíbrio financeiro"
+    ]
+  },
+  {
+    "title": "5 Passos para Reduzir seus Custos com Energia Elétrica",
+    "keywords": [
+      "economia de energia",
+      "redução de despesas",
+      "sustentabilidade",
+      "orçamento doméstico"
+    ]
+  },
+  {
+    "title": "O Que São Investimentos em Renda Fixa e Como Funcionam",
+    "keywords": [
+      "renda fixa",
+      "investimentos",
+      "tesouro direto",
+      "rentabilidade garantida"
+    ]
+  },
+  {
+    "title": "Como Montar uma Carteira de Investimentos Diversificada",
+    "keywords": [
+      "carteira de investimentos",
+      "diversificação",
+      "gestão de risco",
+      "investimentos"
+    ]
+  },
+  {
+    "title": "Planejamento de Longo Prazo: Como Preparar suas Finanças para a Aposentadoria",
+    "keywords": [
+      "planejamento de aposentadoria",
+      "finanças a longo prazo",
+      "segurança financeira"
+    ]
+  },
+  {
+    "title": "Finanças Pessoais: Como Alinhar seus Objetivos de Vida ao Seu Orçamento",
+    "keywords": [
+      "finanças pessoais",
+      "objetivos de vida",
+      "orçamento alinhado",
+      "planejamento financeiro"
+    ]
+  },
+  {
+    "title": "Como Utilizar a Conta Digital a seu Favor",
+    "keywords": [
+      "conta digital",
+      "bancos digitais",
+      "gestão financeira",
+      "fintechs"
+    ]
+  },
+  {
+    "title": "Planejamento de Viagem: Como Juntar Dinheiro e Viajar Mais",
+    "keywords": [
+      "planejamento de viagem",
+      "poupança para viagens",
+      "economia",
+      "gestão de finanças pessoais"
+    ]
+  },
+  {
+    "title": "Investindo em Startups: Potencial de Crescimento e Riscos",
+    "keywords": [
+      "investimento em startups",
+      "crescimento empresarial",
+      "gestão de risco",
+      "mercado de startups"
+    ]
+  },
+  {
+    "title": "Seguros de Automóveis: Como Escolher a Melhor Opção",
+    "keywords": [
+      "seguro de carro",
+      "proteção veicular",
+      "planejamento financeiro",
+      "comparação de seguros"
+    ]
+  },
+  {
+    "title": "Como Fazer um Planejamento Financeiro para Comprar sua Casa Própria",
+    "keywords": [
+      "compra de casa",
+      "planejamento financeiro",
+      "financiamento imobiliário",
+      "investimento em imóveis"
+    ]
+  },
+  {
+    "title": "Como Escolher o Melhor Cartão de Crédito para seu Perfil",
+    "keywords": [
+      "cartão de crédito",
+      "escolha de cartão",
+      "perfil financeiro",
+      "recompensas"
+    ]
+  },
+  {
+    "title": "Os Benefícios de Usar Cashback em Compras Online",
+    "keywords": [
+      "cashback",
+      "compras online",
+      "economia",
+      "recompensas financeiras"
+    ]
+  },
+  {
+    "title": "Como Aumentar a Pontuação de Crédito no Brasil",
+    "keywords": [
+      "pontuação de crédito",
+      "score de crédito",
+      "histórico financeiro",
+      "gestão de crédito"
+    ]
+  },
+  {
+    "title": "Entenda a Tributação de Dividendos no Brasil",
+    "keywords": ["dividendos", "tributação", "impostos", "investimentos"]
+  },
+  {
+    "title": "Como Economizar Dinheiro em Produtos de Tecnologia",
+    "keywords": [
+      "economia em tecnologia",
+      "produtos eletrônicos",
+      "gestão financeira",
+      "dicas de economia"
+    ]
+  },
+  {
+    "title": "Investindo em Fundos Imobiliários: Vantagens e Riscos",
+    "keywords": [
+      "fundos imobiliários",
+      "investimento",
+      "gestão de imóveis",
+      "renda passiva"
+    ]
+  },
+  {
+    "title": "Como Preparar seu Orçamento para o Fim de Ano",
+    "keywords": [
+      "orçamento de fim de ano",
+      "planejamento de festas",
+      "controle de despesas",
+      "economia no final de ano"
+    ]
+  },
+  {
+    "title": "Como Escolher o Melhor Plano de Saúde para sua Família",
+    "keywords": [
+      "plano de saúde",
+      "gestão familiar",
+      "planejamento financeiro",
+      "segurança em saúde"
+    ]
+  },
+  {
+    "title": "Cuidados ao Contratar um Empréstimo Pessoal",
+    "keywords": [
+      "empréstimo pessoal",
+      "cuidados financeiros",
+      "planejamento financeiro",
+      "gestão de dívidas"
+    ]
+  },
+  {
+    "title": "Como Economizar em Reformas Residenciais",
+    "keywords": [
+      "reformas residenciais",
+      "economia em obras",
+      "controle de gastos",
+      "orçamento doméstico"
+    ]
+  },
+  {
+    "title": "Dicas para Negociar Dívidas e Limpar seu Nome",
+    "keywords": [
+      "negociação de dívidas",
+      "limpar nome",
+      "serasa",
+      "gestão de crédito"
+    ]
+  },
+  {
+    "title": "Como Utilizar o 13º Salário com Inteligência",
+    "keywords": [
+      "13º salário",
+      "gestão de dinheiro",
+      "planejamento financeiro",
+      "economia no fim de ano"
+    ]
+  }
+]
