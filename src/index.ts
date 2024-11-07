@@ -29,7 +29,7 @@ app.use('/leads', leadsRouter);
 app.use('/users', usersRouter);
 
 //CronJobs
-cron.schedule('31 10 * * 2', async () => {
+cron.schedule('11 11 * * 2', async () => {
 
   console.log('Executando a função de criar post...');
   const post = await CreatePost();
