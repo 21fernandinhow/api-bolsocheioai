@@ -1,12 +1,12 @@
-import sendEmail, {mailOptions} from "./sendEmail";
+import sendEmail, { mailOptions } from "./sendEmail";
 import { interfacePost } from "../models/post";
 import { LeadModel, interfaceLead } from "../models/lead";
 
-export default async function sendNewsletter(post: interfacePost){
+export default async function sendNewsletter(post: interfacePost) {
 
     try {
         const leads: interfaceLead[] = await LeadModel.find();
-        const leadsEmails = leads.map(i=>{
+        const leadsEmails = leads.map(i => {
             return i.email
         })
         const htmlBody = `
