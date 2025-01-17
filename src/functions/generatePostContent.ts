@@ -19,7 +19,7 @@ export const generatePostContent = async (postInfo: postInfo) => {
                 Respire fundo, e escreva um artigo didático sobre "${postInfo.title}". Não é necessário inserir o título no inicio.
                 Coloque negrito entre asteriscos e não use ###. 
                 Faça o artigo otimizado para SEO, com as palavras-chave: 'bolso cheio', '${postInfo.keywords.join("', '")} .
-                Lembre-se que o seu público são brasileiros.` 
+                Lembre-se que o seu público são brasileiros, e não se esqueça de se basear em fontes confiáveis.` 
               }
             ],
             max_tokens: 2000,
