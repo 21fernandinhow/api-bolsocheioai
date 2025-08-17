@@ -29,29 +29,29 @@ app.use('/leads', leadsRouter);
 app.use('/users', usersRouter);
 
 //CronJobs
-cron.schedule('11 11 * * 2', async () => {
+// cron.schedule('11 11 * * 2', async () => {
 
-  console.log('Executando a função de criar post...');
-  const post = await CreatePost();
+//   console.log('Executando a função de criar post...');
+//   const post = await CreatePost();
 
-  if(post){
-    sendNewsletter(post);
-  } else {
-    console.log("Erro ao criar post")
-  }
+//   if(post){
+//     sendNewsletter(post);
+//   } else {
+//     console.log("Erro ao criar post")
+//   }
 
-}, {
-  scheduled: true,
-  timezone: 'America/Sao_Paulo',
-});
+// }, {
+//   scheduled: true,
+//   timezone: 'America/Sao_Paulo',
+// });
 
-cron.schedule('30 10 17 * *', async () => {
-  console.log('Executando a função de pesquisar feedbacks...');
-  sendNPS()
-}, {
-  scheduled: true,
-  timezone: 'America/Sao_Paulo',
-});
+// cron.schedule('30 10 17 * *', async () => {
+//   console.log('Executando a função de pesquisar feedbacks...');
+//   sendNPS()
+// }, {
+//   scheduled: true,
+//   timezone: 'America/Sao_Paulo',
+// });
 
 //Server
 app.listen(port, () => {
